@@ -4,7 +4,7 @@ A compact monophonic tuning plugin for Apple Silicon Macs, in VST3 and AU format
 
 ## Install
 
-Download the ZIP from [the latest release](https://github.com/mrjellifish/TUN-releases/releases/latest), unzip it, open **TUNUpdater.app**, and click **Install TUN** after saving and closing your DAWs. The installer deploys VST3, AU and its companion updater for your user account. Reopen/rescan your DAW afterward.
+Download the ZIP from [the latest release](https://github.com/mrjellifish/TUN-releases/releases), unzip it, open **TUNUpdater.app**, and click **Install TUN** after saving and closing your DAWs. The installer deploys VST3, AU and its companion updater for your user account. Reopen/rescan your DAW afterward.
 
 **Early beta:** the macOS package is ad-hoc signed, not Developer ID signed or notarized. Vocal listening and DAW integration validation are still in progress. The monophonic engine has 40 ms nominal latency and does not independently preserve formants.
 
