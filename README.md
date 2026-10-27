@@ -1,13 +1,13 @@
-# TUN — downloads
+# TUN downloads
 
-A compact monophonic tuning plugin for Apple Silicon Macs, in VST3 and AU formats.
+Current beta: [TUN 0.2.1](https://github.com/mrjellifish/TUN-releases/releases/tag/v0.2.1-beta.1).
 
-## Install
+Apple silicon macOS VST3 and AU. Choose the installer for your operating system from the release assets; source-code archives are not installers. On Mac, extract the ZIP and run TUNUpdater.app. Save and close your DAW when requested, then reopen and rescan plugins if needed.
 
-Download the ZIP from [the latest release](https://github.com/mrjellifish/TUN-releases/releases), unzip it, open **TUNUpdater.app**, and click **Install TUN** after saving and closing your DAWs. The installer deploys VST3, AU and its companion updater for your user account. Reopen/rescan your DAW afterward.
+Click the plugin title logo for **Plugins** and **Appearance**. The library shows available plugins and updates with thumbnails. Appearance provides four independent colours, gravel/felt texture, background-photo blending and a discreet Copy design menu. No separate desktop hub or startup service is added. Preferences are stored locally, outside DAW projects.
 
-**Early beta:** the macOS package is ad-hoc signed, not Developer ID signed or notarized. Vocal listening and DAW integration validation are still in progress. The monophonic engine has 40 ms nominal latency and does not independently preserve formants.
+Older versions can reach this upgrade through their existing Updates button or companion installer. New versions use the logo menu. Previous releases remain available.
 
-Use the plugin's **Updates** control for signed update checks. The updater verifies release metadata and package checksums, waits for the originating DAW to close, and retains previous versions under `~/Library/Application Support/TUN/Backups/`. It never closes your DAW for you.
+These beta installers do not yet have Apple Developer ID/notarization or Windows publisher certificates. Signed update metadata and package checksums verify update integrity; they do not replace OS publisher signing.
 
-This repository contains public downloads and update metadata. Source development is maintained separately in a private repository.
+TUN currently supports Apple silicon Macs only. Windows and Intel Mac downloads are not available. The separate Live engine experiment is not part of this release.
